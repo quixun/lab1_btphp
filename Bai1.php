@@ -26,7 +26,7 @@ $xuat_ten="Chào bạn ".$ten;
 </tr>
 <tr>
 <td colspan="2">
-<label><?php echo $xuat_ten; ?></label></td>
+<label><?php if(isset($xuat_ten)) echo $xuat_ten; ?></label></td>
 </tr>
 <tr>
 <td colspan="2" align="center" valign="middle"><input type="submit" name="chao" id="chao" value="Xuất" /></td>
